@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial- scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/slideshow.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <title>Projeto de Linguagem de Marcação</title>
+</head>
+<body>
+    <!--Menu-->
+
+    <nav class="nav-container">
+        <div class="navegation">
+          <div class="nav-brand">
+            <i class="fas fa-home"></i>
+            <a href="./index.html">Home</a>
+          </div>
+          <div class="nav-menu">
+            <menu class="item">
+                <i class="fas fa-desktop"></i>
+                <a class="nav-item" href="processador/processadores.html" target="_blank">Computadores</a>
+            </menu>
+            <menu class="item">
+                <i class="fas fa-laptop"></i>
+                <a class="nav-item" href='./notebooks/Notebook.html' target="_blank">Notebooks</a>
+            </menu>
+            <menu class="item" >
+                <i class="fas fa-mobile-alt"></i>
+                <a class="nav-item" href="smartphones/smartphone.html" target="_blank">Celulares</a>
+            </menu>
+          </div>
+        </div>
+    </nav>
+
+    <!--SlideShow-->
+
+    <div>
+        <div class="container">
+            <input type="radio" name="image" id="i1" checked>
+            <input type="radio" name="image" id="i2" >
+            <input type="radio" name="image" id="i3" >
+
+            <div class="slide-img" id="one">
+                <img>
+
+                <label for="i3" class="pre">&#171;</label>
+                <label for="i2" class="nxt">&#187;</label>
+               
+            </div>
+
+            <div class="slide-img" id="two">
+                <img >
+
+                <label for="i1" class="pre">&#171;</label>
+                <label for="i3" class="nxt">&#187;</label>
+
+            </div>
+
+            <div class="slide-img" id="three">
+                <img>
+
+                <label for="i2" class="pre">&#171;</label>
+                <label for="i1" class="nxt">&#187;</label>
+            </div>
+            <div class="nav">
+                <label class="dots" id="dot1" for="i1"></label>
+                <label class="dots" id="dot2" for="i2"></label>
+                <label class="dots" id="dot3" for="i3"></label>
+            </div>
+
+            <div class="logo">
+                <img src="./img/Logo.png" alt="Logo">
+            </div>
+        </div>
+    </div>
+
+
+    <!--Serviços-->
+
+    <main class="services-main">
+        <div class="service">
+          <a href="processador/processadores.html" target="_blank">
+            <img src="./img main service/computadores.png">
+            <h2>Computadores</h2>
+            <p>Melhores peças de hardwares para o seu computador.</p>
+          </a>
+        </div>
+        <div class="service">
+            <a href="notebooks/Notebook.html" target="_blank">
+                <img src="./img main service/notebooks.png">
+                <h2>Notebooks</h2>
+            </a>
+            <p>Notebooks e suas especificações.</p>
+        
+        </div>
+        <div class="service">
+            <a href="smartphones/smartphone.html" target="_blank">
+            <img src="./img main service/celulares.png">
+            </a>
+            <h2>Celulares</h2>
+            <p>Celulares e suas especificações.</p>
+        </div>
+    </main>
+
+    <!--Social-->
+    
+    <main class="social-main">
+        <div class="social">
+            <h3>Direitos altorais:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+        <div class="social" id="alunos">
+            <h3>Programadores:</h3>
+            <p>Christopher Silva de Sousa.</p>
+            <p>Luís Henrique Ferreira Freire.</p>
+            <p>Josilete Rodrigues de Albuquerque</p>
+        </div>
+        <div class="social">
+            <h3>Objetivo:</h3>
+            <p>Produzir um site para auxiliar os usuarios a escolherem os melhores produtos para suas necessidades.</p>
+        </div>
+    </main>
+    <div class="copyright-container">
+        <i class="fas fa-heart"></i>
+        <span class="copyright">Projeto de Linguagem de Marcação</span>
+    </div>   
+</body>
+</html>
